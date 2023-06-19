@@ -23,7 +23,8 @@ export default function Calculator() {
                     <button className="num-button">*</button>
                     <button className="num-button">/</button>
                     <button className="bg-orange-400 active:bg-orange-600/50  p-2 rounded-lg text-xl">=</button>
-                    <button className="bg-orange-400 active:bg-orange-600/50  p-2 rounded-lg text-xl col-span-3">CLS</button>
+                    <button className="num-button">DEL</button>
+                    <button className="bg-orange-400 active:bg-orange-600/50  p-2 rounded-lg text-xl col-span-2">CLS</button>
                 </div>
             </div>
         </div>
