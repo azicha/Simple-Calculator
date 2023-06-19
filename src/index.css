@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .input-screen {
+        @apply bg-gray-300 outline-none p-2 rounded-lg;
+    }
+}
+
+.num-button {
+    @apply p-2 rounded-lg text-xl hover:bg-gray-300 border-[1px] active:bg-gray-500/50;
+}
+
+ 
