@@ -71,11 +71,11 @@ export default function Calculator() {
                         setOperator(operator + "/");
                     }}>/</button>
                     <button 
-                        className="bg-orange-400 active:bg-orange-600/50  p-2 rounded-lg text-xl"
+                        className="bg-green-400 active:bg-orange-600/50  p-2 rounded-lg text-xl"
                         onClick={() => {performCalculation()}}>=</button>
                     <button className="num-button" onClick={() => {setOperation(operation.slice(0, -1))}}>DEL</button>
                     <button 
-                        className="bg-orange-400 active:bg-orange-600/50  p-2 rounded-lg text-xl col-span-2"
+                        className="bg-green-400 active:bg-orange-600/50  p-2 rounded-lg text-xl col-span-2"
                         onClick={() => {setOperation('')}}>CLS</button>
                 </div>
             </div>
